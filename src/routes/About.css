@@ -1,0 +1,27 @@
+/* About.css */
+
+.custom-form {
+  width: 80%; /* Adjust the form width as needed */
+  max-width: 400px; /* Set a maximum width for larger screens */
+  margin: auto; /* Center the form */
+}
+
+.custom-input,
+.custom-textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.custom-button {
+  width: 100%;
+  /* Add additional styling as needed */
+}
+.btn-xl {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+heroImg {
+  width: auto;
+  height: auto;
+}

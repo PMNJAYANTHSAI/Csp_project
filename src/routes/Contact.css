@@ -1,0 +1,133 @@
+.section-white {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-title {
+  font-size: 32px;
+  color: #333;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #777;
+}
+
+.team-item {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+.team-item:hover {
+  transform: translateY(-5px);
+  background-color: #f2f2f2;
+}
+
+.team-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-img:hover {
+  transform: scale(1.1);
+}
+
+.team-info {
+  margin-top: 20px;
+}
+
+.team-info p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.team-icon {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.team-icon li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.team-icon a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.team-icon a:hover {
+  background-color: #333;
+  transform: scale(1.2);
+}
+
+.team-icon .twitter {
+  background-color: #1da1f2;
+}
+
+.team-icon .facebook {
+  background-color: #3b5998;
+}
+
+.team-icon .instagram {
+  background-color: #e4405f;
+}
+
+.team-icon .github {
+  background-color: #333;
+}
+
+.team-icon .linkedin {
+  background-color: #0077b5;
+}
+
+/* Background Effects */
+.section-white::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  background: linear-gradient(to right, #ff0099, #493240);
+  transform: rotate(-5deg);
+  z-index: -1;
+}
+
+.section-white::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  background: linear-gradient(to right, #ff0099, #493240);
+  transform: rotate(5deg);
+  z-index: -1;
+}
+.row {
+  margin-top: 100px;
+}
+.section-white{
+  background-image: url('https://img.freepik.com/free-vector/neumorphic-round-shape-design-empty-white-banner_1017-43171.jpg?w=1060&t=st=1689530465~exp=1689531065~hmac=cd869842ff22ad225c1cc07d7bae795d08200656c7a6cd9d0bf17f9da2bd932e')
